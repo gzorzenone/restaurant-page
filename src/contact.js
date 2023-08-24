@@ -9,7 +9,7 @@ let contacts = [
     "name": "Mary Jane",
     "role": "Manager",
     "phoneNumber": "555-555-5556",
-    "email": "maryjane@email.com"
+    "email": "mary.jane@email.com"
   }
 ]
 

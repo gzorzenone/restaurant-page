@@ -1,6 +1,23 @@
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  gap: 64px;
+  padding: 24px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home img,
@@ -11,10 +28,31 @@ body {
 .home p:first-of-type {
   font-size: 0.75rem;
   font-style: italic;
+  text-align: center;
 }
 
-.item p:first-of-type,
-.person p:first-of-type {
+a {
+  color: inherit;
+}
+
+.menu,
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.item,
+.person {
+  background-color: burlywood;
+  padding: 16px;
+}
+
+.flavor {
+  font-weight: bold;
+}
+
+.name {
   font-size: 1.25rem;
   font-weight: bold;
 }
