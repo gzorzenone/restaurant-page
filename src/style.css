@@ -3,12 +3,17 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-img,
-p {
+.home img,
+.home p {
   width: 50%;
 }
 
-p:first-of-type {
+.home p:first-of-type {
   font-size: 0.75rem;
   font-style: italic;
+}
+
+.item p:first-of-type {
+  font-size: 1.25rem;
+  font-weight: bold;
 }

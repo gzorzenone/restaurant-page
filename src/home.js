@@ -2,6 +2,7 @@ import Coffee from "./mike-kenneally-tNALoIZhqVM-unsplash.jpg";
 
 function loadHomePage() {
   const home = document.createElement("div");
+  home.classList.add("home");
 
   const coffeeImg = document.createElement("img");
   coffeeImg.src = Coffee;
