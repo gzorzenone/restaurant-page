@@ -1,1 +1,4 @@
-console.log("Restaurant Page");
+import "./style.css";
+import loadHomePage from "./home.js";
+
+document.body.appendChild(loadHomePage());

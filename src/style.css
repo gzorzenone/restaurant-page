@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+img,
+p {
+  width: 50%;
+}
+
+p:first-of-type {
+  font-size: 0.75rem;
+  font-style: italic;
+}
